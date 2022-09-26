@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2\WindowsFormsApp2.csproj", "{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07192F34-0482-4434-A802-76A3638886C0} = {07192F34-0482-4434-A802-76A3638886C0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "..\ClassLibrary1\ClassLibrary1\ClassLibrary1.csproj", "{07192F34-0482-4434-A802-76A3638886C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Debug|x86.ActiveCfg = Debug|x86
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Debug|x86.Build.0 = Debug|x86
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Release|x86.ActiveCfg = Release|x86
+		{142F6F0E-5D21-4A88-B779-EBE56D7DDF7B}.Release|x86.Build.0 = Release|x86
+		{07192F34-0482-4434-A802-76A3638886C0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{07192F34-0482-4434-A802-76A3638886C0}.Debug|Any CPU.Build.0 = Debug|x86
+		{07192F34-0482-4434-A802-76A3638886C0}.Debug|x86.ActiveCfg = Debug|x86
+		{07192F34-0482-4434-A802-76A3638886C0}.Debug|x86.Build.0 = Debug|x86
+		{07192F34-0482-4434-A802-76A3638886C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07192F34-0482-4434-A802-76A3638886C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07192F34-0482-4434-A802-76A3638886C0}.Release|x86.ActiveCfg = Release|x86
+		{07192F34-0482-4434-A802-76A3638886C0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943AB6B9-F4BD-4BBA-A99D-EAF742A82638}
+	EndGlobalSection
+EndGlobal
